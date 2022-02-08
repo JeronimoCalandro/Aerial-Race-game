@@ -1,2 +1,2 @@
-# Aerial-Race (44 cats game)
+# Aerial Race (game)
 https://jeronimocalandro.github.io/Aerial-Race/
