@@ -1,0 +1,85 @@
+<html>
+
+<head>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-NWF9TW5');</script>
+	<!-- End Google Tag Manager -->
+	
+	<title>Carrera Aérea</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+	<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+			width: 100%;
+			height: 100vh;
+			overflow: hidden;
+		}
+		@font-face {
+			font-family: "PatrickHand";
+			src: url('assets/PatrickHand-Regular.ttf');
+			font-weight:400;
+			font-weight:normal;
+		}
+		#orientationChangeDiv {
+			position: absolute;
+			display: flex;
+			width: 100%;
+			height: 100vh;
+			background-image: url(assets/preload-scene/orientation-bg.png);
+			background-size: cover;
+			background-position-x: center;
+			background-position-y: center;
+		}
+		.font-loader {
+			position: absolute; 
+			top: 100px; 
+			left: 100px; 
+			opacity: 0; 
+			font-family: "PatrickHand";
+		}
+		#gamediv {
+			width: 100%;
+			height: 100vh;
+			display: none;
+			
+		}
+	</style>	
+</head>
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWF9TW5"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
+	<div id="orientationChangeDiv"></div>
+	<div id="gamediv"></div>
+
+	<div class="font-loader">a</div>
+
+	<!-- <script src="src/lib/phaser.min.js"></script> -->
+	<script src="src/lib/phaser.min.js"></script>
+	<script src="src/lib/utils.js"></script>
+	<script src="src/config.js"></script>
+	<script src="src/scenes/modules/create-game-ui.js"></script>
+	<script src="src/scenes/modules/entities.js"></script>
+	<script src="src/scenes/preload-scene.js"></script>
+	<script src="src/scenes/splash-scene.js"></script>
+	<script src="src/scenes/game-scene.js"></script>
+	<script src="src/scenes/pause-scene.js"></script>
+	<script src="src/scenes/victory-scene.js"></script>
+	<script src="src/scenes/defeat-scene.js"></script>
+	<script src="src/scenes/help-scene.js"></script>
+	<script src="src/scenes/levels-scene.js"></script>
+	<script src="src/scenes/finish-scene.js"></script>
+	<script src="src/scenes/aux-scene.js"></script>
+	<script src="src/main.js"></script>
+</body>
+
+</html>
